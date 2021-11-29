@@ -20,7 +20,6 @@ const EditTask = ({ name, id }) => {
   return (
     <div>
       {/* <input
-        // style={{ padding: "0.5rem 1rem" }}
         type="text"
         value={newEdit}
         onChange={(e) => setNewEdit(e.target.value)}
@@ -37,7 +36,6 @@ const EditTask = ({ name, id }) => {
           <Modal.Title>Edit Todo</Modal.Title>
         </Modal.Header>
         <input
-        // style={{ padding: "0.5rem 1rem" }}
         type="text"
         value={newEdit}
         onChange={(e) => setNewEdit(e.target.value)}
